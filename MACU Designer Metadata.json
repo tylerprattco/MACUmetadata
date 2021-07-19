@@ -7,13 +7,13 @@
 	},
 	{
 		"id":"1",
-	 	"displayName":"MACU Standard Metadata HIhi",
+	 	"displayName":"MACU Standard Metadata ",
 	 	"type":"Divider",
 	 	"dependencies":[]
 	},
 	{
 		"id":"BYLINE",
-		"displayName":"Creator",
+		"displayName":"Creators",
 		"prefix":"xmp",
 		"namespace":"http://ns.adobe.com/xap/1.0/",
 		"propertyName":"Creator",
