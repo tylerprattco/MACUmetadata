@@ -1,0 +1,497 @@
+[
+	{
+		"id":"br",
+	 	"displayName":"",
+	 	"type":"Divider",
+	 	"dependencies":[]
+	},
+	{
+		"id":"1",
+	 	"displayName":"MACU Standard Metadata",
+	 	"type":"Divider",
+	 	"dependencies":[]
+	},
+	{
+		"id":"BYLINE",
+		"displayName":"Creator",
+		"prefix":"xmp",
+		"namespace":"http://ns.adobe.com/xap/1.0/",
+		"propertyName":"Creator",
+		"type":"Text",
+		"dependencies":[],
+		"readOnly":false
+	},
+	{
+		"id":"Webdam:CustomField26",
+		"displayName":"Date Created",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField26",
+		"type":"Text",
+		"dependencies":[],
+		"readOnly":false
+	},
+	{
+		"id":"Webdam:CustomField6",
+		"displayName":"Project Manager",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField6",
+		"type":"MultiDropdown",
+		"options":["Andrea Rosenkrantz","Angela Phillips","Anne Marie Jensen","Brant Skousen","Brittani Forbush","Chase Christensen","Clint Thorn","Cynthia Cook","Debbie Craven","Esther Wickersham","Gentry Moyes","Jaque Poll","Jason Smith","Jeff Hicks","Kelly Wolfe","Krystalina Brown","Robert Steed","Sabrina Vienneau","Tasia Briggs","Tracie Byron","N/A"],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{
+		"id":"Webdam:CustomField30",
+		"displayName":"Description",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField30",
+		"type":"Text",
+		"dependencies":[],
+		"readOnly":false
+	},
+	{
+		"id":"Webdam:CustomField13",
+		"displayName":"Campaign",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField23",
+		"type":"Text",
+		"dependencies":[],
+		"readOnly":false
+	},
+	{
+		"id":"Webdam:CustomField7",
+		"displayName":"Final Approval by",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField7",
+		"type":"MultiDropdown",
+		"options":["Christine Baniewicz","Esther Wickersham","N/A"],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{
+		"id":"Webdam:CustomField4",
+		"displayName":"Date Approved",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField4",
+		"type":"Text",
+		"dependencies":[],
+		"readOnly":false
+	},
+	{
+		"id":"Webdam:CustomField8",
+		"displayName":"Compliance Approved",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField8",
+		"type":"Dropdown",
+		"options":
+			[
+				"Yes",
+				"No",
+				"N/A"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{
+		"id":"Webdam:CustomField12",
+		"displayName":"Compliance Approved by",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField12",
+		"type":"MultiDropdown",
+		"options":
+			[{
+				"label": "Chris Tuft",
+				"parent": "Yes",
+				"value": "Chris Tuft"
+			},
+			{
+				"label": "Scott Coulam",
+				"parent": "Yes",
+				"value": "Scott Coulam"
+			},
+			{
+				"label": "Mark Purcell",
+			 	"parent": "Yes",
+				"value": "Mark Purcell"
+			},
+			{
+				"label": "Diana Olofson",
+				"parent": "Yes",
+				"value": "Diana Olofson"
+			},
+			{
+				"label": "Simon Pearson",
+				"parent": "Yes",
+				"value": "Diana Olofson"
+			}],
+		"dependencies":["Webdam:CustomField8"],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{
+		"id":"Webdam:CustomField21",
+		"displayName":"Creative Start Date",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField21",
+		"type":"Text",
+		"dependencies":[],
+		"readOnly":false
+	},
+	{
+		"id":"Webdam:CustomField5",
+		"displayName":"Creative End Date",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField5",
+		"type":"Text",
+		"dependencies":[],
+		"readOnly":false
+	},
+	{
+		"id":"Webdam:rightsusageterms",
+		"displayName":"Rights Usage Terms",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"rightsusageterms",
+		"type":"Text",
+		"dependencies":[],
+		"readOnly":false
+	},
+	{
+		"id":"br",
+	 	"displayName":"",
+	 	"type":"Divider",
+	 	"dependencies":[]
+	},
+	{
+		"id":"2",
+	 	"displayName":"Photo/Video Metadata",
+	 	"type":"Divider",
+	 	"dependencies":[]
+	},
+	
+	{
+		"id":"Webdam:CustomField9",
+		"displayName":"Shot Type (video/photography)",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField9",
+		"type":"Dropdown",
+		"options":
+			[
+				"B-Roll",
+				"Gimbal",
+				"Handheld",
+				"Interview",
+				"Melt",
+				"Slider",
+				"Time lapse",
+				"Tripod",
+				"Other"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{
+		"id":"Webdam:CustomField11",
+		"displayName":"Shot Category (video/photography)",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField11",
+		"type":"Dropdown",
+		"options":
+			[
+				"Branch",
+				"Campaigns",
+				"Departmental Footage",
+				"Financial Education",
+				"IT/Data Security",
+				"Member B-roll",
+				"Mobile App",
+				"Motion Graphics",
+				"Online Banking",
+				"Other"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{
+		"id":"Webdam:CustomField14",
+		"displayName":"Photo Resolution",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField14",
+		"type":"Dropdown",
+		"options":
+			[
+				"12 MP+",
+				"16 MP+",
+				"21 MP+"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{	
+		"id":"Webdam:CustomField10",
+		"displayName":"Branch",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField10",
+		"type":"Dropdown",
+		"options":
+			[
+				"Albuquerque - Golf Course Road (New Mexico)",
+				"Albuquerque - Paseo Del Norte Boulevard (New Mexico)",
+				"Altamont",
+				"American Fork",
+				"Ammon (Arizona)",
+				"Apache Junction (Arizona)",
+				"Billings (Montana)",
+				"Boise - Ustick Road",
+				"Boise - 3rd Street (Idaho)",
+				"Cedar City - Main Street",
+				"Cedar City - Providence",
+				"Centerville",
+				"Chandler (Arizona)",
+				"Clinton",
+				"Corporate Office: MAC (Sandy)",
+				"Corporate Office: Tanner (West Jordan)",
+				"Cottonwood Heights",
+				"Draper",
+				"Duchesne",
+				"Eagle (Idaho)",
+				"Ephraim",
+				"Farmington",
+				"Garden City (Idaho)",
+				"Garden Valley (Idaho)",
+				"Gilbert (Arizona)",
+				"Glendale (Arizona)",
+				"Goodyear (Arizona)",
+				"Heber",
+				"Henderson (Nevada)",
+				"Herriman",
+				"Holladay - Highland Drive",
+				"Holladay - Murray Holladay Road",
+				"Hurricane",
+				"Idaho Falls (Idaho)",
+				"Kanab",
+				"Kaysville",
+				"Kearns - 4015 West",
+				"Kearns - 5600 West",
+				"Kimball Junction",
+				"Las Vegas (Nevada)",
+				"Layton",
+				"Lehi",
+				"Logan - 706 South",
+				"Logan - 1425 North",
+				"Magna",
+				"Meridian (Idaho)",
+				"Mesa (Arizona)",
+				"Mesquite (Nevada)",
+				"Midvale",
+				"Millcreek",
+				"Missoula (Montana)",
+				"Moab",
+				"Murray",
+				"Nampa (Idaho)",
+				"Ogden - 40th Street",
+				"Ogden - Five Points",
+				"Orem - North State Street",
+				"Orem - University Place",
+				"Payson",
+				"Pleasant Grove",
+				"Pocatello (Idaho)",
+				"Post Falls (Idaho)",
+				"Price",
+				"Provo",
+				"Queen Creek (Arizona)",
+				"Reno (Nevada)",
+				"Rexburg (Idaho)",
+				"Richfield",
+				"Riverton",
+				"Roosevelt",
+				"Rose Park",
+				"Salt Lake - 735 South State",
+				"Salt Lake - Redwood Road",
+				"Salt Lake - 325 South State",
+				"Sandy - 94th South",
+				"Sandy - 106th South",
+				"Sandy - 9640 South State",
+				"Santa Clara",
+				"Saratoga Springs",
+				"South Jordan - Daybreak",
+				"South Jordan - 104th South",
+				"South Jordan - River Park",
+				"Spanish Fork",
+				"Sparks (Nevada)",
+				"Springville",
+				"St. George - River Road",
+				"St. George - Sunset Boulevard",
+				"Stansbury Park",
+				"Sugarhouse",
+				"Tanner Corporate Office (West Jordan)",
+				"Tatum (Arizona)",
+				"Taylorsville - 47th South",
+				"Taylorsville - 54th South",
+				"Tooele",
+				"Twin Falls (Idaho)",
+				"Vernal - East Highway 40",
+				"Vernal - West Highway 40",
+				"Washington",
+				"West Jordan - Redwood Road",
+				"West Jordan - 90th South",
+				"West Jordan - Jordan Landing",
+				"West Valley",
+				"Woods Cross",
+				"Washington Fields"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{
+		"id":"Webdam:CustomField16",
+		"displayName":"Number of People",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField16",
+		"type":"Dropdown",
+		"options":
+			[
+				"None",
+				"One",
+				"Two",
+				"Three +"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{
+		"id":"Webdam:CustomField17",
+		"displayName":"People Category",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField17",
+		"type":"Dropdown",
+		"options":
+			[
+				"Member",
+				"Employee",
+				"Public"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{	
+		"id":"Webdam:CustomField18",
+		"displayName":"Time of Day",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField18",
+		"type":"Dropdown",
+		"options":
+			[
+				"Day",
+				"Night"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{	
+		"id":"Webdam:CustomField19",
+		"displayName":"Interior/Exterior",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField19",
+		"type":"Dropdown",
+		"options":
+			[
+				"Interior Branch/Office",
+				"Exterior Branch/Office",
+				"Public Event"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{	
+		"id":"Webdam:CustomField20",
+		"displayName":"People Composition",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField20",
+		"type":"Dropdown",
+		"options":
+			[
+				"Headshot",
+				"Looking at Camera",
+				"Candid",
+				"In Branch/Interacting with Employee",
+				"Outside Branch",
+				"In office",
+				"Outdoors",
+				"Shopping",
+				"With Family",
+				"Hiking/Recreation"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{	
+		"id":"Webdam:CustomField23",
+		"displayName":"Image Style",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField23",
+		"type":"Dropdown",
+		"options":
+			[
+				"Portrait",
+				"Wideshot",
+				"Close-up",
+				"Full Frame",
+				"Macro",
+				"Abstract"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	},
+	{	
+		"id":"Webdam:CustomField24",
+		"displayName":"Rights/Usage (photography)",
+		"prefix":"Webdam",
+		"namespace":"https://macu.workfrontdam.com/",
+		"propertyName":"CustomField24",
+		"type":"Dropdown",
+		"options":
+			[
+				"OK for Broadcast",
+				"OK for Print",
+				"OK for Social",
+				"Needs Credit"
+			],
+		"dependencies":[],
+		"readOnly":false,
+		"arrayType":"bag"
+	}
+]
