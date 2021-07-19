@@ -13,7 +13,7 @@
 	},
 	{
 		"id":"BYLINE",
-		"displayName":"Creators",
+		"displayName":"Creatorss",
 		"prefix":"xmp",
 		"namespace":"http://ns.adobe.com/xap/1.0/",
 		"propertyName":"Creator",
